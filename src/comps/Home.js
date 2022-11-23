@@ -3,9 +3,9 @@ import React from 'react'
 const Home = () => {
     const images = 'https://www.thecodehelp.in/_next/image?url=https%3A%2F%2Fcodehelp.s3.ap-south-1.amazonaws.com%2FIMG_20220930_WA_0000_02_Swastik_Vasistha_f53028ec2b.jpg&w=1920&q=75'
     const bg_img = 'https://res.cloudinary.com/codehelp/image/upload/v1664355274/codehelpFinalAssets/ggudduf7qmr7yvjwtcs1.svg'
-    const sm_img1 = 'https://www.thecodehelp.in/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fcodehelp%2Fimage%2Fupload%2Fv1664562237%2FcodehelpFinalAssets%2Filemyrzwca73s36nuylo.png&w=1920&q=100'
-    const sm_img2 = 'https://www.thecodehelp.in/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fcodehelp%2Fimage%2Fupload%2Fv1664562288%2FcodehelpFinalAssets%2Fgwpz1kmonhq9a5mtftjo.png&w=1920&q=100'
-    const sm_img3 = 'https://www.thecodehelp.in/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fcodehelp%2Fimage%2Fupload%2Fv1664562322%2FcodehelpFinalAssets%2Fenxuyvqanj9uvsbzwypn.png&w=1920&q=100'
+    const sm_img1 = 'https://www.thecodehelp.in/_next/image?url=https%3A%2F%2Fcodehelp.s3.ap-south-1.amazonaws.com%2Filemyrzwca73s36nuylo_af9797f807.png&w=1920&q=100'
+    const sm_img2 = 'https://www.thecodehelp.in/_next/image?url=https%3A%2F%2Fcodehelp.s3.ap-south-1.amazonaws.com%2Fgwpz1kmonhq9a5mtftjo_341e23ef9d.png&w=1920&q=100'
+    const sm_img3 = 'https://www.thecodehelp.in/_next/image?url=https%3A%2F%2Fcodehelp.s3.ap-south-1.amazonaws.com%2Fenxuyvqanj9uvsbzwypn_3c515e9191.png&w=1920&q=100'
     return (
         <section name="home" className=" bg-gradient-to-tr from-white via-white to-pink-200">
 

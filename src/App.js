@@ -1,4 +1,3 @@
-import './App.css';
 import Home from './comps/Home';
 import MeetYourInstructor from './comps/MeetYourInstructor';
 import NavBar from './comps/NavBar';
