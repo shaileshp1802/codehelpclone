@@ -1,9 +1,7 @@
 import React from 'react'
-// import Typewriter from "typewriter-effect";
-import images from '../assets/profile.jpeg'
 
 const Home = () => {
-
+    const images = 'https://www.thecodehelp.in/_next/image?url=https%3A%2F%2Fcodehelp.s3.ap-south-1.amazonaws.com%2FIMG_20220930_WA_0000_02_Swastik_Vasistha_f53028ec2b.jpg&w=1920&q=75'
     const bg_img = 'https://res.cloudinary.com/codehelp/image/upload/v1664355274/codehelpFinalAssets/ggudduf7qmr7yvjwtcs1.svg'
     const sm_img1 = 'https://www.thecodehelp.in/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fcodehelp%2Fimage%2Fupload%2Fv1664562237%2FcodehelpFinalAssets%2Filemyrzwca73s36nuylo.png&w=1920&q=100'
     const sm_img2 = 'https://www.thecodehelp.in/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fcodehelp%2Fimage%2Fupload%2Fv1664562288%2FcodehelpFinalAssets%2Fgwpz1kmonhq9a5mtftjo.png&w=1920&q=100'
@@ -14,24 +12,6 @@ const Home = () => {
             <div className='flex flex-col-reverse justify-between items-center h-screen mx-16 xl:flex-row '>
                 <div className='text-gray-600'>
                     <h1 className='text-4xl xl:text-6xl font-bold my-4'><span className=' text-code_help_blue'>Learn</span> With Love</h1>
-                    {/* <Typewriter
-                    onInit={(typewriter) => {
-
-                        typewriter
-
-                            .typeString(" Love")
-                            .pauseFor(500)
-                            .deleteAll()
-                            .typeString(" Babbar")
-                            .start();
-                    }}
-                    options={
-                        {
-                            loop: true,
-                            autoStart: true,
-                        }
-                    }
-                /> */}
                     <p className='text-2xl xl:text-4xl max-w-md my-4'>The Ultimate Guide To Ace SDE Interviews.</p>
 
                     <div className="flex gap-4">

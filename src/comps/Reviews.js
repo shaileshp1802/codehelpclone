@@ -1,5 +1,7 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Pagination, Navigation } from "swiper";
+
 import 'swiper/css';
 import ReviewCard from './ReviewCard';
 
@@ -14,39 +16,42 @@ const Reviews = () => {
 
             <div className="my-6">
                 <Swiper
-                    // spaceBetween={50}
-                    // slidesPerView={1}
+                    loop={true}
+                    autoplay={{
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    }}
+                    pagination={{
+                        clickable: true,
+                    }}
+                    navigation={true}
+                    modules={[Autoplay, Pagination, Navigation]}
                     breakpoints={{
                         0: {
-                    slidesPerView: 1,
-                spaceBetween: 20
+                            slidesPerView: 1,
+                            spaceBetween: 20
                         },
-                640: {
-                    slidesPerView: 2,
-                spaceBetween: 30
-                    },
-                820: {
-                    slidesPerView: 3,
-                    spaceBetween: 50
-                }
+                        640: {
+                            slidesPerView: 2,
+                            spaceBetween: 30
+                        },
+                        820: {
+                            slidesPerView: 3,
+                            spaceBetween: 50
+                        }
                     }
-                }
-                loop={true}
-                    // slidesPerGroup={3}
-                    // onSlideChange={() => console.log('slide change')}
-                    // onSwiper={(swiper) => console.log(swiper)}
+                    }
+                    
                 >
-                <SwiperSlide> <ReviewCard /> </SwiperSlide>
-                <SwiperSlide> <ReviewCard /> </SwiperSlide>
-                <SwiperSlide> <ReviewCard /> </SwiperSlide>
-                <SwiperSlide> <ReviewCard /> </SwiperSlide>
-                <SwiperSlide> <ReviewCard /> </SwiperSlide>
+                    <SwiperSlide> <ReviewCard /> </SwiperSlide>
+                    <SwiperSlide> <ReviewCard /> </SwiperSlide>
+                    <SwiperSlide> <ReviewCard /> </SwiperSlide>
 
 
-            </Swiper>
+                </Swiper>
 
-            {console.log()}
-        </div>
+                {console.log()}
+            </div>
 
         </section >
     )
